@@ -7,11 +7,11 @@ import time
 pygame.init()
 
 # Constants
-WIDTH, HEIGHT = 800, 600  # Dimensions of the game window
+WIDTH, HEIGHT = 1000, 800  # Dimensions of the game window
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))  # Create the game window
 pygame.display.set_caption("Aim Trainer")  # Set the window title
 
-TARGET_INCREMENT = 400  # Time interval (in milliseconds) between target spawns
+TARGET_INCREMENT = 3000  # Time interval (in milliseconds) between target spawns
 TARGET_EVENT = pygame.USEREVENT  # Custom event for target spawning
 
 TARGET_PADDING = 30  # Minimum distance from the window edge for target spawns
